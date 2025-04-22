@@ -84,7 +84,7 @@ def build_markov_transition_matrix(sequence):
 
 Heatmaps translate the matrix into an intuitive visual:  
 - **Blue cells:** High transition probability — strong preference.  
-- ** cells:** Low or no observed transitions.  
+- **Yellow cells:** Low or no observed transitions.  
 
 Example heatmap:
 
