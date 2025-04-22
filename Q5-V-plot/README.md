@@ -81,6 +81,9 @@ Open `v_plot_heatmap.ipynb` and run all cells to generate the visualization.
 ## 🧠 Interpretation
 
 The **"V" shape** in the heatmap suggests that fragments closer to the center of protein-DNA interaction sites are shorter and more frequent. This aligns with the biological expectation of **protection footprints** from nucleases.
+<p align="center">
+  <img src="v_plot_heatmap.png" alt="V-plot Heatmap" width="600">
+</p>
 
 ---
 
