@@ -55,7 +55,7 @@ The input is a gzipped, tab-separated file (`mapped.bed.gz`) where each line inc
 - X-axis: Offset between centers of fragment and binding site
 - Y-axis: Fragment size
 - Color: Frequency of occurrence (`Z`)
-- Yellow Box: Puts the 'V' inside the box, for a clear view.
+- Yellow Box: Puts the 'V' inside the box, for a more focused view.
 
 <p align="center">
   <img src="v_plot_heatmap_annotated.png" alt="V-plot Heatmap" width="600">
