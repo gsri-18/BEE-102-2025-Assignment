@@ -96,7 +96,7 @@ This visualization helps identify **dominant transitions** quickly, a key step i
 
 ## How To Use This Project
 
-1. Place your multi-sequence FASTA file in the `data/` folder.  
+1. Place your multi-sequence FASTA file in the same path.  
 2. Run the script to generate transition matrices and heatmaps for each sequence.  
 3. Find all outputs neatly organized in the `outputs/` directory — CSV files for raw probabilities and PNGs for heatmaps.  
 4. Explore and compare nucleotide transition patterns across sequences or species.
