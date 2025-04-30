@@ -160,7 +160,7 @@ Log probability of path: -38.6776...
 ## 📁 Project Structure
 
 ```
-├── viterbi_primer.ipynb   # Implementation notebook
+├── q4_Viterbi_Algorithm_for_the_Primer.ipynb   # Implementation notebook
 ├── README.md              # You're here
 ```
 
