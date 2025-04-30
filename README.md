@@ -23,12 +23,12 @@ This repository presents solutions to the six computational biology tasks assign
 ### Outputs
 - **Original vs Rescaled Distributions**:
   <p align="center">
-    <img src="Q1-Fragment length frequency and Rescaling/output_files/rescaled_prediction.png" alt="Rescaled Prediction Plot" width="600">
+    <img src="Q1-Fragment length frequency and Rescaling/output_files/rescaled_prediction.png" alt="Rescaled Prediction Plot" length="504">
   </p>
 
 - **Side-by-Side Comparison**:
   <p align="center">
-    <img src="Q1-Fragment length frequency and Rescaling/output_files/q1_comparison.png" alt="Comparison Image" width="600">
+    <img src="Q1-Fragment length frequency and Rescaling/output_files/q1_comparison.png" alt="Comparison Image" length="504">
   </p>
 
 ---
@@ -66,7 +66,7 @@ Convert wrapped sequences in FASTA format into single-line representations.
 ### Input vs Output
 | Multi-line Input | Single-line Output |
 |------------------|---------------------|
-| <img src="Q3-Multi-line sequence fasta to single-line fasta/multiline_input_screenshot.png" width="300"> | <img src="singleline_output_screenshot.png" width="300"> |
+| <img src="Q3-Multi-line sequence fasta to single-line fasta/multiline_input_screenshot.png" width="300"> | <img src="Q3-Multi-line sequence fasta to single-line fasta/singleline_output_screenshot.png" width="300"> |
 
 ---
 
