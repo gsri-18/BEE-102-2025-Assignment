@@ -151,7 +151,7 @@ print(f"Log probability of the path is {log_prob}")
 ## 🧪 Sample Output
 
 ```bash
-Most probable path: ['E', 'E', 'E', 'E', ..., '5', 'I', 'I', 'I']
+Most probable path: ['E', 'E', 'E', 'E', ..., 'E']
 Log probability of path: -38.6776...
 ```
 
