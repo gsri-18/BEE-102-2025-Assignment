@@ -157,7 +157,7 @@ pip install numpy pandas matplotlib seaborn gzip
 ---
 
 ## Acknowledgements
-- Assignments are based on the Genomics Programming course.
+- All solutions are based on the content of the BEE-102 course.
 - PCA and HMM tasks follow examples from the Nature Primer.
 - Data and annotations are used as provided for educational purposes.
 
