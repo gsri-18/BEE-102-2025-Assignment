@@ -85,7 +85,7 @@ Convert wrapped sequences in FASTA format into single-line representations.
 ### Sample Output
 ```
 -41.21967768602254
-Most probable path: EEEEEEEE5IIIIIII
+Most probable path: ['E', 'E', 'E', 'E', ..., 'E']
 ```
 
 ---
