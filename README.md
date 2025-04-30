@@ -66,7 +66,7 @@ Convert wrapped sequences in FASTA format into single-line representations.
 ### Input vs Output
 | Multi-line Input | Single-line Output |
 |------------------|---------------------|
-| <img src="Q3-Multi-line sequence fasta to single-line fasta/multiline_input_screenshot.png" width="405"> | <img src="Q3-Multi-line sequence fasta to single-line fasta/singleline_output_screenshot.png" width="504"> |
+| <img src="Q3-Multi-line sequence fasta to single-line fasta/multiline_input_screenshot.png" width="405"> | <img src="Q3-Multi-line sequence fasta to single-line fasta/singleline_output_screenshot.png" width="603"> |
 
 ---
 
