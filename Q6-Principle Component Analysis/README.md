@@ -93,7 +93,7 @@ Samples projected onto the first principal component (PC1), colored by ER status
 
 ## 📌 Credits
 
-- Inspired by Figure 1 in the [Nature Primer](https://www.nature.com/articles/nrg3721).
+- Inspired by Figure 1 in the [Nature Primer](https://www.nature.com/articles/nbt0308-303).
 - Data courtesy of the associated breast cancer dataset (details in the notebook).
 - PCA implemented from scratch for transparency and educational value.
 
