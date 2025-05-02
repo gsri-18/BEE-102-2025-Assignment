@@ -9,7 +9,7 @@ This project implements **Principal Component Analysis (PCA)** from scratch on b
 
 ## Task Breakdown
 
-Here's what the project tackles:
+Here's what the project will cover:
 
 1. Extract expression levels for two key genes: **XBP1** and **GATA3**.
 2. Plot XBP1 vs GATA3 expression (Figure 1a), color-coded by ER status.
