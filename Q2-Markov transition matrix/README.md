@@ -1,7 +1,7 @@
 
 ---
 
-# 1st-Order Markov Transition Matrix from DNA Sequences 🧬
+# 1st-Order Markov Transition Matrix from DNA Sequences 
 
 ---
 
