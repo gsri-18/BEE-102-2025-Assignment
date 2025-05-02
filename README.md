@@ -2,7 +2,7 @@
 
 ## CSE Assignment, Srivardhan Ginjala, 23114028
 
-This repository presents solutions to the six computational biology tasks assigned to us as part of the Programming assignment. The solutions involve core operations in biological data processing using Python, with an emphasis on accuracy, performance, and reproducibility. All plots and visual outputs are included, with annotated figures and documented methodology.
+This repository presents solutions to the six computational biology tasks assigned to us as part of the Programming assignment. The solutions involve core operations in biological data processing using Python. All plots and visual outputs are included, with annotated figures and documented methodology as asked of us.
 
 ---
 
