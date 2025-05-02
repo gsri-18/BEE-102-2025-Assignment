@@ -1,24 +1,24 @@
 
 ---
 
-# 🧬 Principal Component Analysis (PCA) on Breast Cancer Gene Expression Data
+# Principal Component Analysis (PCA) on Breast Cancer Gene Expression Data
 
 This project implements **Principal Component Analysis (PCA)** from scratch on breast cancer gene expression data, inspired by a figure from a *Nature* Primer article. The objective is to replicate Figure 1, which highlights expression patterns and variance captured by PCA—particularly in the context of **estrogen receptor (ER)** status.
 
 ---
 
-## 📝 Task Breakdown
+## Task Breakdown
 
 Here's what the project tackles:
 
-1. 📊 Extract expression levels for two key genes: **XBP1** and **GATA3**.
-2. 🎯 Plot XBP1 vs GATA3 expression (Figure 1a), color-coded by ER status.
-3. 🧠 Run PCA on the full gene expression matrix to compute principal components.
-4. 🪞 Project the data onto the first principal component (PC1) to visualize class separation (Figure 1c).
+1. Extract expression levels for two key genes: **XBP1** and **GATA3**.
+2. Plot XBP1 vs GATA3 expression (Figure 1a), color-coded by ER status.
+3. Run PCA on the full gene expression matrix to compute principal components.
+4. Project the data onto the first principal component (PC1) to visualize class separation (Figure 1c).
 
 ---
 
-## 📂 Data Files
+## Data Files
 
 The analysis uses the following datasets (located in `data/`):
 
@@ -30,14 +30,14 @@ The analysis uses the following datasets (located in `data/`):
 
 ---
 
-## 📈 Results
+## Results
 
-### 🔹 Figure 1a: XBP1 vs GATA3 Expression
+### Figure 1a: XBP1 vs GATA3 Expression
 
 A scatter plot of **XBP1** (Y-axis) vs **GATA3** (X-axis) for 105 patients.  
 Color code:  
-- 🔴 **Red** = ER-positive (ER⁺)  
-- ⚫ **Black** = ER-negative (ER⁻)
+- **Red** = ER-positive (ER⁺)  
+- **Black** = ER-negative (ER⁻)
 
 ![Figure 1a](figure_1a_scatter_plot_improved.png)
 
@@ -45,17 +45,17 @@ Color code:
 
 ---
 
-### 🔹 Figure 1b: PCA Arrows on Expression Space
+### Figure 1b: PCA Arrows on Expression Space
 
 PCA projection vectors (PC1 & PC2) overlaid on the XBP1–GATA3 space.
 
 ![Figure 1b](figure_1b_pca_projection_arrows_improved.png)
 
-> 📐 The directions of variance are consistent with the theoretical PCA vectors.
+> The directions of variance are consistent with the theoretical PCA vectors.
 
 ---
 
-### 🔹 Figure 1c: Projection onto PC1
+### Figure 1c: Projection onto PC1
 
 Samples projected onto the first principal component (PC1), colored by ER status.
 
@@ -65,7 +65,7 @@ Samples projected onto the first principal component (PC1), colored by ER status
 
 ---
 
-## 🧾 Summary
+## Summary
 
 - **Key Insights**:
   - Expression patterns of XBP1 and GATA3 are predictive of ER status.
@@ -78,7 +78,7 @@ Samples projected onto the first principal component (PC1), colored by ER status
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 1. Place all data files (`class.tsv`, `filtered.tsv.gz`, `columns.tsv.gz`) into a folder named `data/`.
 2. Install required Python packages (if not already installed):
@@ -91,7 +91,7 @@ Samples projected onto the first principal component (PC1), colored by ER status
 
 ---
 
-## 📌 Credits
+## Credits
 
 - Inspired by Figure 1 in the [Nature Primer](https://www.nature.com/articles/nbt0308-303).
 - Data courtesy of the associated breast cancer dataset (details in the notebook).
