@@ -7,7 +7,7 @@
 
 ## Overview
 
-This project constructs a **1st-order Markov transition matrix** from DNA sequences, capturing the probability that one nucleotide (A, T, G, or C) follows another. The resulting matrix provides a powerful statistical snapshot of sequence dynamics and can reveal characteristic transition patterns useful in genomics research and bioinformatics applications.
+This solution constructs a **1st-order Markov transition matrix** from DNA sequences, capturing the probability that one nucleotide (A, T, G, or C) follows another. The resulting matrix provides a powerful statistical snapshot of sequence dynamics and can reveal characteristic transition patterns useful in genomics research and bioinformatics applications.
 
 ---
 
@@ -31,7 +31,7 @@ This project constructs a **1st-order Markov transition matrix** from DNA sequen
 
 ## Why Use `defaultdict`? A Comparative Perspective
 
-Choosing the right data structure directly impacts the efficiency, readability, and scalability of the code. Here’s how `defaultdict` compares with other common options:
+Choosing the right data structure directly impacts the efficiency, readability, and scalability of the code. This is why I chose `defaultdict` over other common options:
 
 | Data Structure               | Pros                                                         | Cons                                                        |
 |------------------------------|--------------------------------------------------------------|-------------------------------------------------------------|
@@ -113,7 +113,7 @@ This visualization helps identify **dominant transitions** quickly, a key step i
 
 ## Summary
 
-This project demonstrates how a simple yet powerful tool like a **`defaultdict`** combined with data normalization and visualization can unlock meaningful patterns in DNA sequences. By efficiently building and displaying Markov transition matrices, we gain a window into the language of life encoded in nucleotide sequences.
+This solution demonstrates how a simple yet powerful tool like a **`defaultdict`** combined with data normalization and visualization can unlock meaningful patterns in DNA sequences. By efficiently building and displaying Markov transition matrices, we gain a window into the language of life encoded in nucleotide sequences.
 
 ---
 
