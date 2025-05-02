@@ -166,7 +166,7 @@ Log probability of path: -38.6776...
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 - Python ≥ 3.6  
 - `numpy`  
@@ -174,7 +174,7 @@ Log probability of path: -38.6776...
 
 ---
 
-## 🏁 Notes & Tips
+## Notes & Tips
 
 - The implementation **uses log-space** to avoid floating-point underflow.
 - `safe_log(x)` ensures `log(0)` doesn't blow up your program.
@@ -182,7 +182,7 @@ Log probability of path: -38.6776...
 
 ---
 
-## 📚 Reference
+## Reference
 
 - *Nature Primer on Hidden Markov Models* (Gene finding)
 - Viterbi algorithm for biological sequence decoding  
