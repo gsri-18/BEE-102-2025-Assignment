@@ -1,23 +1,23 @@
 
 ---
 
-# 🧬 Viterbi Algorithm for Nature Primer (3 Marks)
+# Viterbi Algorithm for Nature Primer (3 Marks)
 
 This project implements the **Viterbi algorithm** for a simplified **Hidden Markov Model (HMM)** based on the *Nature Primer* exercise. The aim is to decode a DNA sequence into its most probable biological annotation — **Exon (E)**, **Splice Site (5)**, or **Intron (I)** — using the principles of probabilistic modeling.
 
 ---
 
-## 📌 Task Objectives
+## Task Objectives
 
 This assignment involves three main components:
 
-1. **🧱 Define the HMM structure**: States, observations, transition and emission probabilities.
-2. **🔍 Calculate the log-probability** of a known state path emitting a specific observed DNA sequence.
-3. **🧠 Implement the Viterbi algorithm** to infer the most probable path for any DNA input sequence.
+1. **Define the HMM structure**: States, observations, transition and emission probabilities.
+2. **Calculate the log-probability** of a known state path emitting a specific observed DNA sequence.
+3. **Implement the Viterbi algorithm** to infer the most probable path for any DNA input sequence.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 ### Hidden States
 - `E`: Exon  
@@ -29,7 +29,7 @@ This assignment involves three main components:
 
 ---
 
-### 🔗 Transition Probabilities
+### Transition Probabilities
 
 ```python
 transition_probabilities = {
@@ -40,7 +40,7 @@ transition_probabilities = {
 }
 ```
 
-### 🧬 Emission Probabilities
+### Emission Probabilities
 
 ```python
 emission_probs = {
@@ -52,7 +52,7 @@ emission_probs = {
 
 ---
 
-## 🔍 Log Probability Function
+## Log Probability Function
 
 Given a **state path** and **DNA sequence**, this function computes the total **log-probability** of the path producing the sequence:
 
@@ -85,17 +85,17 @@ print(ans)
 
 ---
 
-## 🚀 Viterbi Algorithm
+## Viterbi Algorithm
 
 This function computes the most probable sequence of hidden states using **dynamic programming**.
 
-### 💡 Pseudocode Logic:
+### Pseudocode Logic:
 
 1. **Initialization**: Set initial probabilities using log space.
 2. **Recursion**: At each step, compute the max log-probability path for each state.
 3. **Termination**: Backtrack from the best final state to recover the optimal path.
 
-### 🧠 Implementation:
+### Implementation:
 
 ```python
 # Implementation of the Viterbi algorithm
@@ -148,7 +148,7 @@ print(f"Log probability of the path is {log_prob}")
 
 ---
 
-## 🧪 Sample Output
+## Sample Output
 
 ```bash
 Most probable path: ['E', 'E', 'E', 'E', ..., 'E']
@@ -157,7 +157,7 @@ Log probability of path: -38.6776...
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── q4_Viterbi_Algorithm_for_the_Primer.ipynb   # Implementation notebook
