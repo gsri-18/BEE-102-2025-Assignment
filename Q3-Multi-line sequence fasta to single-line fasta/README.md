@@ -1,7 +1,7 @@
 
 ---
 
-# 🚀 Converting Multi-line FASTA to Single-line FASTA (Memory-Efficient)
+# Converting Multi-line FASTA to Single-line FASTA (Memory-Efficient)
 
 FASTA files are the standard for storing DNA, RNA, or protein sequences. Typically, sequences are split into fixed-width lines — often 60 characters per line — for readability.
 
@@ -9,7 +9,7 @@ However, this formatting can be frustrating when **searching for sequences that 
 
 ---
 
-## 🎯 The Task
+## The Task
 
 **Goal:** Convert a multi-line FASTA file into a *single-line* FASTA file where each header is followed by its full sequence on one continuous line.
 
@@ -22,13 +22,13 @@ Why?
 ---
 
 
-## 🧠 Why This Matters
+## Why This Matters
 
 If your query sequence spans a fixed-width boundary, it won’t be found in the multi-line format. This can lead to missed matches in bioinformatics analyses, affecting downstream results like motif searches or primer design.
 
 ---
 
-## 🔧 Methodology: Memory-Efficient Conversion
+## Methodology: Memory-Efficient Conversion
 
 Our solution reads and writes sequences *line-by-line*, avoiding in-memory concatenation or list storage — essential when working with massive genome files.
 
@@ -42,7 +42,7 @@ Our solution reads and writes sequences *line-by-line*, avoiding in-memory conca
 
 ---
 
-## 💻 Core Python Code Snippet
+## Core Python Code Snippet
 
 ```python
 def multiline_to_singleline_fasta(input_path, output_path):
@@ -64,7 +64,7 @@ def multiline_to_singleline_fasta(input_path, output_path):
 
 ---
 
-## ⚠️ Why We Avoid Lists and Other Memory-Heavy Data Structures
+## Why We Avoid Lists and Other Memory-Heavy Data Structures
 
 When processing large FASTA files — especially those containing massive genomes — **how you store and manipulate sequences in memory matters a lot**. Here are common pitfalls with popular approaches:
 
@@ -104,7 +104,7 @@ When processing large FASTA files — especially those containing massive genome
 
 ---
 
-## 💪 Strengths of Our Memory-Efficient Streaming Approach
+## Strengths of Our Memory-Efficient Streaming Approach
 
 - **Streaming line-by-line processing:**
 
@@ -139,7 +139,7 @@ This approach strikes a perfect balance between **efficiency, simplicity, and sc
 
 ---
 
-## 📸 Visuals: Input & Output Screenshots
+## Visuals: Input & Output Screenshots
 
 Here are snapshots of the files involved, and the result of the work.
 
@@ -151,7 +151,7 @@ Here are snapshots of the files involved, and the result of the work.
 
 ---
 
-## 🔍 Demonstration: Searching Across Line Boundaries
+## Demonstration: Searching Across Line Boundaries
 
 We selected a sequence substring that **spans the 60-character boundary** in the multi-line input:
 
@@ -159,14 +159,14 @@ We selected a sequence substring that **spans the 60-character boundary** in the
 Breakpoint substring: [CGCAGCCACG]
 ```
 
-- Searching this in **multi-line FASTA** → ❌ *Not found*
-- Searching in **single-line FASTA** → ✅ *Found*
+- Searching this in **multi-line FASTA** → *Not found*
+- Searching in **single-line FASTA** → *Found*
 
 This proves converting to a single-line format **restores searchability** for boundary-spanning sequences.
 
 ---
 
-## 📊 Results & Stats
+## Results & Stats
 
 - Total sequences processed: **50**
 - Total bases merged: **12,398**
@@ -175,7 +175,7 @@ Our approach ensures sequences are contiguous and ready for downstream processin
 
 ---
 
-## 🎯 Final Takeaway
+## Final Takeaway
 
 Converting multi-line FASTA files into single-line sequences is not just about aesthetics — it is **crucial for accurate sequence analysis**. Our memory-efficient method scales to massive datasets, maintaining speed and low memory consumption.
 
