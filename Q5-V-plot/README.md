@@ -1,13 +1,13 @@
 
 ---
 
-# 🧬 V-Plot Heatmap of Protected DNA Fragments
+# V-Plot Heatmap of Protected DNA Fragments
 
 This project visualizes **protein-DNA interactions** through a **V-plot heatmap**. When a protein binds to DNA, that region becomes protected from nucleases. By analyzing these protected fragments, we can uncover structural signatures — typically forming a **"V" shape** around the binding site.
 
 ---
 
-## 📌 Objective
+## Objective
 
 Given a dataset of mapped DNA fragments around protein binding sites, the goal is to:
 
@@ -20,7 +20,7 @@ Given a dataset of mapped DNA fragments around protein binding sites, the goal i
 
 ---
 
-## 📂 Input Data Format
+## Input Data Format
 
 The input is a gzipped, tab-separated file (`mapped.bed.gz`) where each line includes information about a protected DNA fragment and its associated binding site.
 
@@ -37,7 +37,7 @@ The input is a gzipped, tab-separated file (`mapped.bed.gz`) where each line inc
 
 ---
 
-## 🧮 How it Works
+## How it Works
 
 1. **Parse each line** and extract:
    - `C1 = (fragment_start + fragment_end) // 2`
@@ -49,7 +49,7 @@ The input is a gzipped, tab-separated file (`mapped.bed.gz`) where each line inc
 
 ---
 
-## 📊 Output
+## Output
 
 - A **high-resolution heatmap** (`v_plot_heatmap.png`) that illustrates the V-shaped protection pattern.
 - X-axis: Offset between centers of fragment and binding site
@@ -63,7 +63,7 @@ The input is a gzipped, tab-separated file (`mapped.bed.gz`) where each line inc
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install dependencies
 
@@ -78,7 +78,7 @@ Open `v_plot_heatmap.ipynb` and run all cells to generate the visualization.
 
 ---
 
-## 🧠 Interpretation
+## Interpretation
 
 The **"V" shape** in the heatmap suggests that fragments closer to the center of protein-DNA interaction sites are shorter and more frequent. This aligns with the biological expectation of **protection footprints** from nucleases.
 <p align="center">
@@ -87,7 +87,7 @@ The **"V" shape** in the heatmap suggests that fragments closer to the center of
 
 ---
 
-## 🧪 Sample Insight
+## Sample Insight
 
 An entry like:
 
@@ -99,7 +99,7 @@ means that **500 bases upstream** of a protein binding site, there are **10 frag
 
 ---
 
-## 📁 Files
+## Files
 
 - `mapped.bed.gz`: Input dataset of mapped fragments.
 - `q5_V_Plot.ipynb`: Jupyter notebook for analysis.
