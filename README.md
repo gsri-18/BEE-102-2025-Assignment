@@ -2,7 +2,7 @@
 
 ## CSE Assignment, Srivardhan Ginjala, 23114028
 
-This repository presents solutions to the six computational biology tasks assigned to CSE students as part of the Genomics Programming module. The solutions involve core operations in biological data processing using Python, with an emphasis on accuracy, performance, and reproducibility. All plots and visual outputs are included, with annotated figures and documented methodology.
+This repository presents solutions to the six computational biology tasks assigned to us as part of the Programming assignment. The solutions involve core operations in biological data processing using Python, with an emphasis on accuracy, performance, and reproducibility. All plots and visual outputs are included, with annotated figures and documented methodology.
 
 ---
 
@@ -151,8 +151,8 @@ pip install numpy pandas matplotlib seaborn gzip
 
 ## Notes
 - All scripts are compatible with Python 3.6+.
-- Outputs are organized in respective folders under `output_files/`, `data/`, and `figures/`.
-- Each notebook is self-contained with code, explanation, and result plots.
+- Outputs are organized in respective folders under `output_files/`, `data/` etc.
+- Notebooks are self-contained with code, explanation, and result plots.
 
 ---
 
