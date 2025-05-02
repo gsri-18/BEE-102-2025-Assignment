@@ -152,15 +152,15 @@ pip install numpy pandas matplotlib seaborn gzip
 ## Notes
 - All scripts are compatible with Python 3.6+.
 - Outputs are organized in respective folders under `output_files/`, `data/` etc.
-- Notebooks are self-contained with code, explanation, and result plots.
+- Notebooks are accompanied with code, explanation, and result plots.
 
 ---
 
 ## Acknowledgements
 - All solutions are based on the content of the BEE-102 course.
 - PCA and HMM tasks follow examples from the Nature Primer.
-- Data and annotations are used as provided for educational purposes.
+- Data and annotations are used as provided from the github repository.
 
 ---
-All tasks use Python 3 with standard packages (`numpy`, `pandas`, `matplotlib`, `seaborn`, etc.) and are tested on datasets provided in the assignment. Each script includes comments and is designed for readability and reproducibility.
+All tasks use Python 3 with standard packages (`numpy`, `pandas`, `matplotlib`, `seaborn`, etc.) and are tested on datasets provided in the assignment.
 
